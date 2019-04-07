@@ -2,8 +2,44 @@
     box-sizing: border-box;
 }
 
-.buttons {
+body {
+    background-image: url("../images/background.jpg");
+}
+
+#start,
+#restart {
+    background-color: bisque;
     height: 50px;
     width: 100px;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+    height: auto;
+    width: 350px;
+}
+
+.container {
+    background-color: slategray;
+    height: 620px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.button {
+    margin: 15px;
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.clear {
+    margin: 20px;
 }
