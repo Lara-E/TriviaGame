@@ -1,9 +1,3 @@
-// ATTN TA'S
-// At the moment this is quite working properly. var currentQuestion is supposed to increment and
-// serve as an index number for questionSet. It does this when the questions time out, but if user
-// clicks and answer it skips some. I would like to fix this and hear your comments on how to do 
-// so. Right now I have it set to console.log current question so you can see how it behaves 
-// differently when its clicked and when it times out. Thanks in advance for any advice.
 
 
 $("document").ready(function () {
